@@ -2,6 +2,10 @@
 #include <stdlib.h>
 #include <math.h>
 
+// in short, this turns a number into an array w/ a size of digits.
+// it is filled in left to right and any blank spots are filled w/ 0.
+// there's a built in function for this I think but it wasn't working for my program
+// so I just built one
 void turnIntoArray(int *numArray, int newNum, int digits);
 
 int main()
